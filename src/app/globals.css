@@ -104,3 +104,6 @@ h1 { font-size:30px;letter-spacing:-.055em;margin:0;font-weight:800; }
 @media(max-width:760px) {
  .app-shell{display:block}.sidebar{transform:translateX(-100%);transition:transform .2s;width:260px}.sidebar.open{transform:translateX(0)}.main{padding:0 16px 35px}.topbar{height:64px}.mobile-menu{display:grid;place-items:center;background:transparent;color:#dce4d9;border:1px solid var(--line);border-radius:7px;width:35px;height:35px}.breadcrumb{display:none}.topbar{justify-content:flex-end}.search-wrap{width:min(260px,55vw)}.region{display:none}.page-heading{margin:25px 0 18px;align-items:flex-start;flex-direction:column}.page-heading h1{font-size:26px}.hero{padding:20px;display:block}.hero h2{font-size:20px}.hero-search{width:100%;margin-top:19px}.stats-grid{gap:8px}.stat-card{padding:13px}.stat-value{font-size:22px}.dashboard-grid{grid-template-columns:1fr}.match-row{grid-template-columns:1.1fr .65fr .65fr;gap:8px;padding:12px 10px}.match-row>*:nth-child(4),.match-row>*:nth-child(5){display:none}.match-head{font-size:8px}.panel{padding:14px}.season-pill{font-size:9px}
 }
+
+.spin { animation: yourstats-spin 1s linear infinite; }
+@keyframes yourstats-spin { to { transform: rotate(360deg); } }
